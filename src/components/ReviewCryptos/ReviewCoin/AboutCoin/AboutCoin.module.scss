@@ -1,0 +1,38 @@
+@import "src/App";
+
+.AboutCoin {
+  background-color: $white;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.favorites {
+  color: $white;
+  background-color: $grey;
+  height: 20px;
+  border: 1px solid $grey;
+  border-radius: 10px;
+  padding: 2px 5px 5px 5px;
+  &:hover {
+    cursor: pointer;
+    background-color: rgba(111, 107, 107, 0.8);
+  }
+  &:active {
+    background-color: $grey;
+  }
+}
+
+.Info {
+  display: flex;
+  justify-content: space-between;
+  font-size: 22px;
+  p {
+    margin: 5px 0;
+  }
+  &:last-child p {
+    margin-bottom: 0;
+  }
+}

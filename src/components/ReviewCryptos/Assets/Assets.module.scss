@@ -1,0 +1,40 @@
+@import "src/App";
+
+.Assets {
+  width: 15%;
+  background-color: #f5f5dc;
+  color: #6f6b6b;
+  margin-bottom: 15px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  height: 590px;
+}
+
+.AssetsTitle {
+  text-align: center;
+}
+
+.FavoritesList {
+  padding-left: 5px;
+  padding-right: 5px;
+  height: 541px;
+  overflow-y: scroll;
+}
+
+@media (max-width: 1600px) {
+  .Assets {
+    width: 20%;
+  }
+}
+@media (max-width: 1300px) {
+  .Assets {
+    width: 25%;
+  }
+}
+@media (max-width: 1000px) {
+  .Assets {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+}
